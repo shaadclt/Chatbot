@@ -92,7 +92,7 @@ counter = 0
 
 def main():
     global counter
-    st.title("Chatbot")
+    st.title("S-Chatbot")
     st.write("Welcome to the chatbot. Please type a message and press Enter to start the conversation.")
 
     counter += 1
