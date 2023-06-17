@@ -100,7 +100,7 @@ def main():
 
     if user_input:
         response = chatbot(user_input)
-        st.text_area("Chatbot:", value=response, height=100, max_chars=None, key=f"chatbot_response_{counter}")
+        st.text_area("S-Chatbot:", value=response, height=100, max_chars=None, key=f"chatbot_response_{counter}")
 
         if response.lower() in ['goodbye', 'bye']:
             st.write("Thank you for chatting with me. Have a great day!")
