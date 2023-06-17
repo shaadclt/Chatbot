@@ -13,8 +13,8 @@ nltk.download('punkt')
 intents = [
     {
         "tag": "greeting",
-        "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up"],
-        "responses": ["Hi there", "Hello", "Hey", "I'm fine, thank you", "Nothing much"]
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hi there", "Hello", "Hey"]
     },
     {
         "tag": "goodbye",
